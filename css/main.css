@@ -1,0 +1,70 @@
+.left {
+	display: inline-block;
+	/* float: left; */
+	background-color: red;
+	width: 15%;
+}
+
+.right {
+	display: inline-block;
+	/* float: left;*/
+	background-color: green;
+	width: 10%;
+}
+
+.center {
+	display:inline-block;
+	/* float:left; */
+	background-color: blue;
+	width:55%;
+	vertical-align:top;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:5%;
+}
+
+.toptitle {
+	display:block;
+	background-color: white;
+	padding:10px;
+	text-align:center;
+
+}
+
+.taskbox {
+	position:relative;
+	top: 50px;
+
+}
+
+
+button {background-color: rgb(169,209,42);
+	color: rgb(190,118,78);
+	display:block;
+	width:100px;
+	height:50px;
+	border-radius:20px;
+	position:relative;
+	left: 50px;
+	}
+
+.newtaskbtn {padding: 20px;}
+
+.honeydew {}  
+
+h1 {font-family: "ar blanca";
+	font-size: 40px;
+	color: rgb(190,118,78);
+	text-align: center;
+	background-color: rgb(169,209,42);
+}
+
+
+
+/* 169 209 42 - green color 
+
+smaller screen graphics of honeydew can go away
+
+*/
+
+
