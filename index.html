@@ -12,11 +12,11 @@
 
 	<!-- Left Div Here -->
 	<div class="left">
-		<img src="images/honeydew.png" class="honeydew" </img>
-
-		<button name="btn" class="newtaskbtn"> Sign In </button>
-		<button name="btn" class="newtaskbtn"> Instructions </button>
-
+		<img src="images/honeydew.png" class="honeydew"> </img>
+		<div class="btnbox">
+			<button name="btn" class="newtaskbtn"> New Task </button>
+			<button name="btn" class="newtaskbtn"> Instructions </button>
+		</div>
 	</div>
 
 
@@ -24,10 +24,14 @@
 	<div class="center">
 			<div class="toptitle"><h1>Honey Do List</h1></div>
 
-			<div class ="taskbox"><form action="/searchme" method="post">
+			<div class ="taskbox">
+					<form action="/searchme" method="post">
 
-				<input type = "text" name="taskbox" placeholder="" size="60" class="task">
+					<input type = "text" name="taskrow" placeholder="" size="60" class="task">
+					<input type = "text" name="taskstatus" placeholder="" size="20" class="task status">
 
+					<input type = "text" name="taskrow" placeholder="" size="60" class="task">
+					<input type = "text" name="taskstatus" placeholder="" size="20" class="task status">
 
 			</div>
 

@@ -1,26 +1,27 @@
+* {background-color: white;}
+
 .left {
 	display: inline-block;
-	/* float: left; */
-	background-color: red;
+	
 	width: 15%;
 }
 
 .right {
 	display: inline-block;
-	/* float: left;*/
-	background-color: green;
-	width: 10%;
+	
+	width: 15%;
+	position:relative;
+	top: -130px;
+	right: -100px;
 }
 
 .center {
 	display:inline-block;
-	/* float:left; */
-	background-color: blue;
-	width:55%;
+	width:50%;
 	vertical-align:top;
-	padding-left:5%;
-	padding-right:5%;
-	padding-top:5%;
+	padding-left: 3%;
+	padding-right: 2%;
+	padding-top: 3%;
 }
 
 .toptitle {
@@ -33,22 +34,44 @@
 
 .taskbox {
 	position:relative;
-	top: 50px;
+	top: 15px;
+	margin-bottom: 100px;
 
 }
 
+.btnbox {display:block;
+}
+
+
+.task {
+	display:inline-block;
+	height:30px;
+	width:80%;
+	font-size:25px;
+	background-color: rgb(169,209,42);
+	color: rgb(190,118,78);
+	margin-top: 10px;
+	margin-left: 1%;
+	margin-bottom: 10px;
+	padding-left: 1%;
+}
+
+.status {width: 5%;margin: 10px;}
 
 button {background-color: rgb(169,209,42);
 	color: rgb(190,118,78);
 	display:block;
-	width:100px;
+	width: 128px;
 	height:50px;
-	border-radius:20px;
+	border-radius:10px;
 	position:relative;
 	left: 50px;
-	}
+	top:20px;
+	margin-top: 20px;text-align: center;font-size: large;text-align: center;}
 
-.newtaskbtn {padding: 20px;}
+.newtaskbtn {/* padding: 22px; */
+	top: 52px;
+}
 
 .honeydew {}  
 
