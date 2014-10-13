@@ -7,3 +7,4 @@ Append a node to the dom
 When item is selected and delete icon is pressed
 delete that node from the dom
 
+text.appendto list

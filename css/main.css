@@ -2,7 +2,6 @@
 
 .left {
 	display: inline-block;
-	
 	width: 15%;
 }
 
@@ -11,7 +10,7 @@
 	
 	width: 15%;
 	position:relative;
-	top: -130px;
+	top: 0px;
 	right: -100px;
 }
 
@@ -40,6 +39,7 @@
 }
 
 .btnbox {display:block;
+	margin-top:50px;
 }
 
 
@@ -56,21 +56,51 @@
 	padding-left: 1%;
 }
 
-.status {width: 5%;margin: 10px;}
+
+li {
+	display:block;
+	position:relative;
+	list-style-type: none;
+	background-color: rgb(169,209,42);
+	color: rgb(190,118,78);
+	margin: 20px;
+	font-size:25px;
+	left:-50px;
+	padding:5px;
+}
+
+.status {width: 5%;
+	margin: 10px;}
+
 
 button {background-color: rgb(169,209,42);
 	color: rgb(190,118,78);
-	display:block;
-	width: 128px;
+	display:inline-block;
+	width: 100px;
 	height:50px;
 	border-radius:10px;
 	position:relative;
-	left: 50px;
-	top:20px;
-	margin-top: 20px;text-align: center;font-size: large;text-align: center;}
+	left: 10px;
+	top:0px;
+	text-align: center;
+	font-size: large;
+	text-align: center;
+	margin-right:20px;}
 
 .newtaskbtn {/* padding: 22px; */
-	top: 52px;
+	
+	display:inline-block;
+}
+
+.instructionbtn {
+	position:relative;
+	left:30px;
+	width:125px;
+	}
+
+.completed {
+	text-decoration: line-through;
+	color:red;
 }
 
 .honeydew {}  
