@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$('button')
+$('.newtask')
 
 	.on('click', function(){
 
@@ -16,14 +16,25 @@ $('button')
 
 	});  // end on click function ;
 
-
-$('li')
-		.on('dblclick', function() {  // think this function is not attaching to dynamically added li items
-  		$('li').toggleClass('completed');
-  		//alert('double clicked');
+$('.instruction')
+		.on('click', function(event) {  // think this function is not attaching to dynamically added li items
+  		
+  		$('.instdiv').toggleClass('showdiv'); // can toggle the class since we captured this at time of dblclick
 	});
-	
 
+
+$('ul')
+		.on('click', 'li', function(event) {  // think this function is not attaching to dynamically added li items
+  		var elem = $( this );  // captures this before bubbling
+
+  		elem.toggleClass('completed'); // can toggle the class since we captured this at time of dblclick
+	});
+
+$('ul')
+		.on('dblclick', 'li', function(event) {  // think this function is not attaching to dynamically added li items
+  		$(this).remove();
+  		});
+	
 
 });  // end the document ready function
 

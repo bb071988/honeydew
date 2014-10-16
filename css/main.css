@@ -12,6 +12,7 @@
 	position:relative;
 	top: 0px;
 	right: -100px;
+	vertical-align: top;
 }
 
 .center {
@@ -87,23 +88,37 @@ button {background-color: rgb(169,209,42);
 	text-align: center;
 	margin-right:20px;}
 
-.newtaskbtn {/* padding: 22px; */
+.newtask {/* padding: 22px; */
 	
 	display:inline-block;
 }
 
-.instructionbtn {
+.instruction {
 	position:relative;
 	left:30px;
 	width:125px;
+
 	}
+
+
+.instdiv {
+
+	border:2px black;
+	margin:20px 5px 5px 5px;
+	padding:10px;
+	font-size: 20px;
+	display:none;
+
+}
+
+.showdiv {display:block;}
 
 .completed {
 	text-decoration: line-through;
-	color:red;
+	
 }
 
-.honeydew {}  
+.honeydew {vertical-align: top}  
 
 h1 {font-family: "ar blanca";
 	font-size: 40px;

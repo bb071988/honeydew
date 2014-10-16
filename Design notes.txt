@@ -8,3 +8,25 @@ When item is selected and delete icon is pressed
 delete that node from the dom
 
 text.appendto list
+
+event delegation George Foreman family
+
+attach the event to the UL UL knows which descendent executed the event.
+
+event.target - who initiated the event.
+
+works because of event bubbling
+
+console.log event.target - may want to wrap that in jquery $
+function var target = $(event).target line 22
+
+delegator as close to element that is permanent
+potential memory leaks without doing event delegatin
+
+
+
+inline blocks start at text bottom
+
+html starts with how we are displaying text
+
+inline block will always want to fall to the bottom.
